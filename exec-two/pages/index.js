@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import List from './list'
+// import List from './list'
 
 export default function Home(props) {
   return (
@@ -18,7 +18,11 @@ export default function Home(props) {
           </div>
         </div>
         <div>
-          <List {...props}/>
+          <ul>
+              {props.catFacts.map((test) => (
+                  <li key={test._id}>{test.text}</li>
+              ))}
+          </ul>
         </div>
       </main>
 
@@ -36,5 +40,3 @@ export async function getServerSideProps() {
       props: { catFacts, catImage }
   }
 }
-
-
