@@ -1,0 +1,21 @@
+/* navbar */
+.navbar {
+    background-color: #278299;
+    height: 60px;
+    width: 100%;
+}
+
+.btn-nav {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    width: 100px;
+    text-align: center;
+}
+
+.btn-nav:hover {
+    border-bottom: 1px #fff solid;
+    border-top: 1px #fff solid;
+}

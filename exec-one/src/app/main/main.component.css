@@ -1,0 +1,29 @@
+/* main content */
+.main-content {
+    height: 400px;
+    background-color: #278299;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.picture {
+    flex: 0.4;
+    height: 100%;
+    width: 100;
+}
+
+.picture img {
+    max-width:100%;
+    max-height:100%;
+}
+
+.text {
+    flex: 0.6;
+    height: 100%;
+    margin: 30px;
+}
+
+.text-white{
+    color: white;
+}
