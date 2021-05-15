@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-// import List from './list'
 
 export default function Home(props) {
   return (
